@@ -28,12 +28,13 @@
                     <div>Sign in with Apple</div>
                 </div>
                 <div>
-                    <span>
-                        or
-                    </span>
+                    <span></span>
+                    or
+                    <span></span>
                 </div>
-                <label>
-                    <input type="text" placeholder="phone, email, or username"/>
+                <label class="label"> 
+                    <input onchange="handleInputFill()" id="email" type="text"/>
+                    <span id="placeholder">Phone, Email, or Username</span>
                 </label>
                 <div>
                     <a>Next</a>
@@ -44,6 +45,6 @@
             </form>
         </div>
     </section>
-    
+    <script src="./js/index.js"></script>
 </body>
 </html>
