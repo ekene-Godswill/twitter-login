@@ -14,7 +14,7 @@ section > div > form{
     flex-direction: column;
     align-items: center;
      border: 0px solid white;
-     width:650px;
+     width:660px;
      background-color: white;
      border-radius: 20px;
      /* height:80vh; */
@@ -140,4 +140,57 @@ section > div > form{
 .filledInput{
     top:10px !important;
     font-size: small !important;
+}
+.first > div:nth-child(7){
+    display: flex;
+    justify-content: center;
+    padding: 10px 80px;
+    border-radius: 30px; 
+    border:  1px solid black;
+    width: 313px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    background-color: black;
+}
+.first > div:nth-child(7) > a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.first > div:hover:nth-child(7){
+    cursor: pointer;
+    background-color:#1a1a1a;
+}
+.first > div:nth-child(8){
+    display: flex;
+    justify-content: center;
+    padding: 10px 80px;
+    border-radius: 30px;
+    width: 313px;
+    border: 1px solid #e0e2e5;
+    margin-bottom: 45px;
+}
+.first > div:nth-child(8) > a{
+    font-size: 17px;
+    font-weight: 600;
+}
+.first > div:hover:nth-child(8){
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+.first > div:last-of-type{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 70px;
+    font-size: 17px;
+    color: #536471;
+    margin-bottom: 60px;
+}
+.first > div:last-of-type > a{
+    color:#1d9bf0;
+    margin-left: 5px;
+}
+.first > div:hover:last-of-type > a{
+    cursor: pointer;
+    text-decoration: underline;
 }
