@@ -16,7 +16,7 @@ section > div > form{
      width:660px;
      background-color: white;
      border-radius: 20px;
-     /* height:80vh; */
+     height:90vh;
 }
 .second > div:first-of-type{
     display: flex;
@@ -85,7 +85,7 @@ section > div > form{
 }
 .second > div:nth-child(5){
     display: flex;
-    /* gap:20px; */
+    gap:10px;
     align-items: center;
     justify-content: center;
     width:313px;
@@ -111,4 +111,43 @@ section > div > form{
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+.second > div:hover:nth-child(6){
+    cursor: pointer;
+    background-color:#1a1a1a;
+}
+.second > div:nth-child(7){
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 60px;
+    margin-top: -25px;
+}
+.second > div:nth-child(7) > div{
+    font-size: 14px;
+    color: #536471;
+}
+.second > div:nth-child(7) > div > a{
+    color: #1d9bf0;
+}
+.second > div:hover:nth-child(7) > div a{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.second > div:nth-child(8){
+    display: flex;
+    width: 313px;
+    color: #536471;
+    font-size: 17px;
+    margin-top: -18px;
+    font-weight:550;
+}
+.second > div:nth-child(8) > a{
+    color: #1d9bf0;
+    margin-left: 5px;
+
+}
+.second > div:hover:last-of-type > a{
+    cursor: pointer;
+    text-decoration: underline;
 }
